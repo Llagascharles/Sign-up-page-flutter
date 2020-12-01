@@ -79,7 +79,6 @@ class _State extends State<MyApp> {
                 Container(
                   padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                   child: TextField(
-                    obscureText: true,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
@@ -94,7 +93,6 @@ class _State extends State<MyApp> {
                 Container(
                   padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                   child: TextField(
-                    obscureText: true,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
@@ -109,7 +107,6 @@ class _State extends State<MyApp> {
                 Container(
                   padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                   child: TextField(
-                    obscureText: true,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
@@ -124,7 +121,6 @@ class _State extends State<MyApp> {
                 Container(
                   padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                   child: TextField(
-                    obscureText: true,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
