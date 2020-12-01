@@ -80,7 +80,7 @@ class _State extends State<MyApp> {
                   padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                   child: TextField(
                     obscureText: true,
-                    controller: passwordController,
+                    controller: nameController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
@@ -96,7 +96,7 @@ class _State extends State<MyApp> {
                   padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                   child: TextField(
                     obscureText: true,
-                    controller: passwordController,
+                    controller: nameController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
@@ -112,7 +112,7 @@ class _State extends State<MyApp> {
                   padding: EdgeInsets.fromLTRB(10, 10, 10, 0),
                   child: TextField(
                     obscureText: true,
-                    controller: passwordController,
+                    controller: nameController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
@@ -129,7 +129,7 @@ class _State extends State<MyApp> {
                   child: TextField(
                     obscureText: true,
                     
-                    controller: passwordController,
+                    controller: nameController,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                     ),
