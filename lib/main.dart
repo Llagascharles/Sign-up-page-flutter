@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
-void main() {
-  runApp(MaterialApp(
-    home: MyApp(),
-    theme: new ThemeData(scaffoldBackgroundColor: const Color(0xFFEFEFEF)),
-  ));
-}
-class MyApp extends StatefulWidget {
+
+import 'main.dart';
+
+class SecondScreen extends StatefulWidget {
   @override
   _State createState() => _State();
 }
-class _State extends State<MyApp> {
+
+class _State extends State<SecondScreen> {
   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   @override
@@ -133,7 +131,7 @@ class _State extends State<MyApp> {
                       style: TextStyle(fontSize: 12, color: Color(0xffFF1744)),
                     )),
                 Container(
-                  height: 40,
+                    height: 40,
                     padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
                     child: RaisedButton(
                       textColor: Colors.white,
@@ -145,20 +143,21 @@ class _State extends State<MyApp> {
                       },
                     )),
                 Container(
-                  child: Row(
-                    children: <Widget>[
-                      Text('Already have an account?'),
-                      FlatButton(
-                        textColor: Colors.pink,
-                        child: Text(
-                          'Sign In',
-                        ),
-                        onPressed: () {
-                          //signup screen
-                        },
-                      )
-                    ],
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    child: Row(
+                  children: <Widget>[
+                    Text('Already have an account?'),
+                    FlatButton(
+                      textColor: Colors.pink,
+                      child: Text(
+                        'Sign In',
+                      ),
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => MyApp()));
+                      },
+                    )
+                  ],
+                  mainAxisAlignment: MainAxisAlignment.center,
                 ))
               ],
             )));
